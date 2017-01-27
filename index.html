@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+  <title>Document</title>
+</head>
+<body>
+
+<div id="tabs">
+
+    <ul>
+      <li><a id="first" href="#">First tab</a></li>
+      <li><a id="second" href="#">Second tab</a></li>
+      <li><a id="third" href="#">Third tab</a></li>
+    </ul>
+
+    <div id="first-box" class="box-style">
+        <blockquote>
+          Progress is impossible without change, and those who cannot change their minds cannot change anything.
+        </blockquote>
+        <p>George Bernard Shaw</p>
+    </div>
+    <div id="second-box" class="box-style">
+      <blockquote>
+        Learn from yesterday, live for today, hope for tomorrow. The important thing is not to stop questioning.
+      </blockquote>
+      <p>Albert Einstein</p>
+    </div>
+    <div id="third-box" class="box-style">
+
+        <form id="form-field" method="post">
+
+          <label>Firstname:<input type="text" name="firstname"></label>
+          <label class="second-and-third-label">Lastname:<input type="text" name="lastname"></label>
+          <label class="second-and-third-label">Address:<input type="text" name="address"></label>
+
+          <span id="firstname-help" class="help-text-style">Please provide your firstname.</span>
+          <span id="lastname-help" class="help-text-style">Please provide also your lastname.</span>
+          <span id="address-help" class="help-text-style">Your home or work address.</span>
+
+          <button id="show-help-button" type="button" name="button">Show help</button>
+
+    </form>
+    </div>
+</div>
+</body>
+</html>

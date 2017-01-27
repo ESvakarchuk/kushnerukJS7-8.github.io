@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'Helvetica Neue Light';
+    src: url('../fonts/helveticaneuecyr-light-webfont.woff2') format('woff2'), url('../fonts/helveticaneuecyr-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  background: url(../img/wow.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+#tabs {
+  width: 800px;
+  padding: 20px;
+  margin: 150px auto;
+}
+
+#second-box,
+#third-box {
+  display: none;
+}
+
+ul {
+  margin-left: 145px;
+  margin-bottom: 26px;
+}
+
+ul>li>a {
+  float: left;
+  padding: 5px;
+  margin-right: 3px;
+  color: #ccc;
+  font-family: "Helvetica Neue Light", Tahoma, sans-serif;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+ul>li>a:focus {
+  box-shadow: inset 0 2px 5px rgba(29, 26, 22, 0.2), 0 0 25px 4px rgba(47, 123, 197, 0.77), inset 0 0 2px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.box-style {
+  width: 500px;
+  height: 200px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+p {
+  margin-top: 15px;
+  color: #ccc;
+  font-family: "Helvetica Neue Light", Tahoma, sans-serif;
+}
+
+blockquote {
+  margin-left: 10px;
+  margin-top: 50px;
+  color: white;
+  font-size: 19px;
+  font-style: italic;
+}
+
+blockquote:before {
+  color: #bbb;
+  content: "\201C";
+  font-size: 3em;
+  line-height: 0.1em;
+  margin-right: 0.2em;
+  vertical-align: -.4em;
+}
+
+blockquote:after {
+  color: #bbb;
+  content: "\201D";
+  font-size: 3em;
+  line-height: 0.1em;
+  vertical-align: -.45em;
+}
+
+.help-text-style {
+  display: none;
+  position: absolute;
+  padding: 5px;
+  box-sizing: border-box;
+  box-shadow: inset 0 2px 5px rgba(29, 26, 22, 0.2), 0 0 25px 4px rgba(47, 123, 197, 0.77), inset 0 0 2px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  font-size: 14px;
+  color: white;
+  font-family: "Helvetica Neue Light", Tahoma, sans-serif;
+}
+
+#firstname-help {
+  top: -3px;
+  left: 280px;
+}
+
+#lastname-help {
+  top: 30px;
+  left: 280px;
+}
+
+#address-help {
+  top: 65px;
+  left: 280px;
+}
+
+form {
+  position: relative;
+  margin-top: 30px;
+}
+
+label {
+  display: block;
+  width: 270px;
+  margin-left: 15px;
+  color: #ccc;
+  font-family: "Helvetica Neue Light", Tahoma, sans-serif;
+}
+
+.second-and-third-label {
+  margin-top: 15px;
+}
+
+input {
+  color: black;
+  box-shadow: 0 1px 0 #4b4b4b, inset 0 2px 5px rgba(29, 26, 22, 0.2), inset 0 0 2px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+input:focus {
+  box-shadow: 0px 0px 4px 1px #689bcc, inset 0 2px 5px rgba(29, 26, 22, 0.2), 0 0 25px 4px rgba(47, 123, 197, 0.77), inset 0 0 2px rgba(0, 0, 0, 0.1);
+}
+
+input[name="firstname"] {
+  margin-left: 29px;
+}
+
+input[name="lastname"] {
+  margin-left: 31px;
+}
+
+input[name="address"] {
+  margin-left: 41px;
+}
+
+#show-help-button {
+  display: block;
+  margin-top: 30px;
+  margin-left: 10px;
+  width: 151px;
+  height: 37px;
+  background: linear-gradient(to bottom, #79bbff 5%, #1a70c7 100%);
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 14px;
+  font-family: "Helvetica Neue Light", Tahoma, sans-serif;
+}
