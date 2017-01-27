@@ -114,7 +114,7 @@ form {
 
 label {
   display: block;
-  width: 270px;
+  width: 300px;
   margin-left: 15px;
   color: #ccc;
   font-family: "Helvetica Neue Light", Tahoma, sans-serif;
@@ -135,7 +135,7 @@ input:focus {
 }
 
 input[name="firstname"] {
-  margin-left: 29px;
+  margin-left: 31px;
 }
 
 input[name="lastname"] {
@@ -143,7 +143,7 @@ input[name="lastname"] {
 }
 
 input[name="address"] {
-  margin-left: 41px;
+  margin-left: 42px;
 }
 
 #show-help-button {
